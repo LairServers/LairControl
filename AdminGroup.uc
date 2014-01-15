@@ -1,6 +1,6 @@
 class AdminGroup extends Object
 	PerObjectConfig
-	Config(AdminControlv2);
+	Config(LairControlV1);
 	
 var string ConfigFile;
 
@@ -13,5 +13,5 @@ static function array<string> GetNames()
 
 defaultproperties
 {
-     ConfigFile="AdminControlv2"
+     ConfigFile="LairControlV1"
 }
